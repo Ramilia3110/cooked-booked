@@ -51,7 +51,7 @@ const Meal = () => {
         >
           <h2 meal-recipe__title>{meal.strMeal}</h2>
           <div className="meal-recipe__image">
-            <img src={meal.strMealThumb} alt="image of the meal" />
+            <img src={meal.strMealThumb} alt={meal.strMeal} />
           </div>
           <ul className="meal-recipe__details">
             <li>

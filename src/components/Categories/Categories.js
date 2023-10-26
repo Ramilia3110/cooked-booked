@@ -51,7 +51,7 @@ const Categories = () => {
                 <div className="category__img">
                   <img
                     src={category.strCategoryThumb}
-                    alt="image of meal categories like beef, seafood, chicken etc."
+                    alt={category.strCategory}
                   />
                 </div>
                 <span className="category__desc">

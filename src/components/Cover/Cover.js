@@ -15,12 +15,12 @@ const Cover = () => {
           </div>
 
           <div className="cover__content-img">
-            <img src={veg} alt="image of vegetables" />
+            <img src={veg} alt="fresh vegetables" />
           </div>
         </div>
 
         <div className="cover__img">
-          <img src={koala} alt="image og koala cooking french fries" />
+          <img src={koala} alt="koala cooking french fries" />
         </div>
       </div>
     </div>

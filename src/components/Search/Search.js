@@ -21,7 +21,7 @@ const Search = () => {
         <div className="search-img">
           <img
             src={babyKoala}
-            alt="image of baby koalas looking for a recipe in the b"
+            alt="A baby koalas looking for a recipe in the b"
           />
         </div>
         <div>
@@ -50,10 +50,7 @@ const Search = () => {
               <Link to={`/${meal.idMeal}`} key={meal.idMeal}>
                 <div className="searchedMeal-item">
                   <div className="searchedMeal-item__img">
-                    <img
-                      src={meal.strMealThumb}
-                      alt="picture of meal from meal recipe"
-                    />
+                    <img src={meal.strMealThumb} alt={meal.strMeal} />
                   </div>
                   <p>{meal.strMeal}</p>
                 </div>

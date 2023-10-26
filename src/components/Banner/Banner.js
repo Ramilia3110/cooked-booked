@@ -9,20 +9,19 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="logo-container">
-        {" "}
         <Logo />
       </div>
 
       <div className="banner-container">
         <h1 className="banner-title">enjoy</h1>
         <div className="banner-img cup">
-          <img src={cup} alt="image of cup of tea with strawberries" />
+          <img src={cup} alt="cup of tea with strawberries" />
         </div>
         <div className="banner-img bottle">
-          <img src={bottle} alt="image of bottles of wine" />
+          <img src={bottle} alt="bottles of wine" />
         </div>
         <div className="banner-img glass">
-          <img src={glass} alt="image of coffee cup" />
+          <img src={glass} alt="cup of coffee" />
         </div>
       </div>
     </div>

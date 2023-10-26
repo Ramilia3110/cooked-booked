@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useCategoryQuery } from "../../services/mealsApi";
 import "./styles.scss";
 import { Link } from "react-router-dom";
@@ -44,7 +44,7 @@ const Category = ({ categoryName }) => {
               >
                 <div className="categoryMeals">
                   <div className="categoryMeals__img">
-                    <img src={meal.strMealThumb} alt="image of meal" />
+                    <img src={meal.strMealThumb} alt={meal.strMeal} />
                   </div>
 
                   <span className="categoryMeals__title">{meal.strMeal}</span>
