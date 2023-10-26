@@ -25,7 +25,10 @@
   },
   "eslintConfig": {
     "rules": {
-      "no-warning-comments": "warn"
+      "no-warning-comments": "warn",
+      "jsx-a11y/alt-text": "warn",
+      "jsx-a11y/img-redundant-alt": "warn",
+      "no-unused-vars": "warn"
     },
     "extends": [
       "react-app",
