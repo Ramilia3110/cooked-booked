@@ -16,13 +16,13 @@ const Banner = () => {
       <div className="banner-container">
         <h1 className="banner-title">enjoy</h1>
         <div className="banner-img cup">
-          <img src={cup} alt="" />
+          <img src={cup} alt="image of cup of tea with strawberries" />
         </div>
         <div className="banner-img bottle">
-          <img src={bottle} alt="" />
+          <img src={bottle} alt="image of bottles of wine" />
         </div>
         <div className="banner-img glass">
-          <img src={glass} alt="" />
+          <img src={glass} alt="image of coffee cup" />
         </div>
       </div>
     </div>

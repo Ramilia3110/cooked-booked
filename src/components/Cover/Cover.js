@@ -15,7 +15,7 @@ const Cover = () => {
           </div>
 
           <div className="cover__content-img">
-            <img src={veg} />
+            <img src={veg} alt="image of vegetables" />
           </div>
         </div>
 

@@ -49,7 +49,10 @@ const Categories = () => {
               >
                 <span className="category__title">{category.strCategory}</span>
                 <div className="category__img">
-                  <img src={category.strCategoryThumb} alt="" />
+                  <img
+                    src={category.strCategoryThumb}
+                    alt="image of meal categories like beef, seafood, chicken etc."
+                  />
                 </div>
                 <span className="category__desc">
                   {category.strCategoryDescription}

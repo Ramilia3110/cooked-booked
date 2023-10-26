@@ -44,7 +44,7 @@ const Category = ({ categoryName }) => {
               >
                 <div className="categoryMeals">
                   <div className="categoryMeals__img">
-                    <img src={meal.strMealThumb} alt={meal.strMeal} />
+                    <img src={meal.strMealThumb} alt="image of meal" />
                   </div>
 
                   <span className="categoryMeals__title">{meal.strMeal}</span>

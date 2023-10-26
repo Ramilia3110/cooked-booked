@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BsSearch } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { useMealSearchQuery } from "./../../services/mealsApi";
 import "./styles.scss";
@@ -22,7 +21,7 @@ const Search = () => {
         <div className="search-img">
           <img
             src={babyKoala}
-            alt="ookbaby koalas looking for a recipe in the b"
+            alt="image of baby koalas looking for a recipe in the b"
           />
         </div>
         <div>
@@ -51,7 +50,10 @@ const Search = () => {
               <Link to={`/${meal.idMeal}`} key={meal.idMeal}>
                 <div className="searchedMeal-item">
                   <div className="searchedMeal-item__img">
-                    <img src={meal.strMealThumb} alt="" />
+                    <img
+                      src={meal.strMealThumb}
+                      alt="picture of meal from meal recipe"
+                    />
                   </div>
                   <p>{meal.strMeal}</p>
                 </div>

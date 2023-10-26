@@ -76,7 +76,6 @@ const Meal = () => {
                 width="600"
                 height="330"
                 src={getYouTubeEmbedUrl(meal.strYoutube)}
-                frameBorder="0"
                 allowFullScreen
               />
             )}
