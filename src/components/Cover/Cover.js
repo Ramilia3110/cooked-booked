@@ -13,7 +13,7 @@ const Cover = () => {
           </div>
           <div className="cook-img">
             {" "}
-            <img src={cook} />
+            <img src={cook}  alt =" koala cook with flags/>
           </div>
         </div>
 
